@@ -6,7 +6,7 @@
 但是不知道为什么小标签的爬取成功率就是不高。
 
 首页：
-![image]https://github.com/123mob/wangzhi/blob/master/%E7%95%8C%E9%9D%A2/1.jpg
+![image](https://github.com/123mob/wangzhi/blob/master/%E7%95%8C%E9%9D%A2/1.jpg)
 
 添加网址页面：
-![image]https://github.com/123mob/wangzhi/blob/master/%E7%95%8C%E9%9D%A2/2.jpg
+![image](https://github.com/123mob/wangzhi/blob/master/%E7%95%8C%E9%9D%A2/2.jpg)
