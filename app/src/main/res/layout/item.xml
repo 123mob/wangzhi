@@ -1,0 +1,71 @@
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_gravity="center">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/item_img"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/ic_read" />-->
+
+        <ImageView
+            android:id="@+id/image_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/keai" />
+        <!--        android:layout_centerInParent="true"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:textSize="15dp"
+            android:text="title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/remark"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="备注"
+            />
+        <TextView
+            android:id="@+id/item_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:text="https://www.baidu.com"
+            android:textSize="14dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="#c8c8c8"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
